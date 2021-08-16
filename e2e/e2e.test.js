@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import puppetteer from 'puppeteer';
 import { fork } from 'child_process';
 
