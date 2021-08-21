@@ -12,6 +12,7 @@ popover.style.display = 'none';
 
 button.addEventListener('click', () => {
   if (popover.style.display === 'none') {
+  // if (popover.className === 'popover hidden') {
     popover.style.display = 'block';
     popover.classList.remove('hidden');
     popover.classList.add('active');
